@@ -1,0 +1,20 @@
+[
+{
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "admin", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2017-04-18T14:56:36.833Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$noHaO7hxNJnO$krYbgUB+DM/+Yf2i4+CaWMXX5NytwcASy4I5Ed28vYM=", 
+        "email": "kuznecov513@gmail.com", 
+        "date_joined": "2017-04-18T14:29:28.266Z"
+    }
+}
+]
