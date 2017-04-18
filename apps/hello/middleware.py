@@ -9,10 +9,3 @@ class PersonMiddleware(object):
             method=request.method,
         )
         request_info.save()
-
-
-
-
-
-
-
