@@ -10,6 +10,7 @@ class SomeTests(TestCase):
 
 class TestPerson(TestCase):
     def test_person_data(self):
+        "test of Person model"
         person = Person()
         person.name = "Misha"
         person.last_name = "Kuznietsov"
