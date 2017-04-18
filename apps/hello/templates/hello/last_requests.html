@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>L 10 astrequests</title>
+     <! Latest compiled and minified CSS >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <! jQuery library >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+    <! Latest compiled JavaScript >
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Last Requests</h1>
+    </div>
+    <div class="container">
+        {% for req in requests %}
+        <h3>{{ req.url }}</h3>
+        <h5>{{req.method}}</h5>
+        <br>
+        {% endfor %}
+    </div>
+</body>
+</html>

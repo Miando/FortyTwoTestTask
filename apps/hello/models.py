@@ -13,3 +13,11 @@ class Person(models.Model):
 
     def __str__(self):
         return self.name + ' ' + self.last_name
+
+
+class RequestModel(models.Model):
+    url = models.CharField(max_length=1000, null=True, blank=True)
+    method = models.CharField(max_length=10, null=True, blank=True)
+
+    def __str__(self):
+        return self.url
