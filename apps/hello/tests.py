@@ -31,6 +31,8 @@ class ProjectTests(TestCase):
         requests = [
             '/',
             '/request/',
+            '/login/',
+            '/edit/',
         ]
         for request in requests:
             response = self.client.get(request)
@@ -46,3 +48,13 @@ class ProjectTests(TestCase):
         "test fo last_request template"
         response = self.client.get('/request/')
         self.assertContains(response, '/request/')
+
+    def tests_template_login(self):
+        "test fo login template"
+        response = self.client.get('/login/')
+        self.assertContains(response, 'button')
+
+    def tests_template_edit(self):
+        "test fo edit template"
+        response = self.client.get('/edit/')
+        self.assertContains(response, 'form')
