@@ -22,5 +22,5 @@ class ProjectTests(TestCase):
     def tests_template_index(self):
         "test for index template"
         response = self.client.get('/')
-        self.assertContains(response, 'title')
+        self.assertContains(response, 'html')
         self.assertContains(response, 'kuznecov513@gmail.com')
