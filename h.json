@@ -1,0 +1,17 @@
+[
+    {
+        "fields": {
+            "bio": "",
+            "birth_date": "1988-07-06",
+            "contacts": "",
+            "email": "kuznecov513@gmail.com",
+            "jabber": "miando@42cc.co",
+            "last_name": "Kuzietsov",
+            "name": "Mykhailo",
+            "skype": "mykhailo.kuznietsov",
+            "user": 1
+        },
+        "model": "hello.person",
+        "pk": 1
+    }
+]
