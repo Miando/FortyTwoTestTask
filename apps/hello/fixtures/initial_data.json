@@ -1,1 +1,48 @@
-[{"pk": 1, "model": "hello.person", "fields": {"bio": "", "last_name": "Kuzietsov", "name": "Mykhailo", "contacts": "", "user": 1, "skype": "mykhailo.kuznietsov", "birth_date": "1988-07-06", "jabber": "miando@42cc.co", "email": "kuznecov513@gmail.com"}}, {"pk": 1, "model": "auth.permission", "fields": {"codename": "add_logentry", "name": "Can add log entry", "content_type": 1}}, {"pk": 2, "model": "auth.permission", "fields": {"codename": "change_logentry", "name": "Can change log entry", "content_type": 1}}, {"pk": 3, "model": "auth.permission", "fields": {"codename": "delete_logentry", "name": "Can delete log entry", "content_type": 1}}, {"pk": 4, "model": "auth.permission", "fields": {"codename": "add_permission", "name": "Can add permission", "content_type": 2}}, {"pk": 5, "model": "auth.permission", "fields": {"codename": "change_permission", "name": "Can change permission", "content_type": 2}}, {"pk": 6, "model": "auth.permission", "fields": {"codename": "delete_permission", "name": "Can delete permission", "content_type": 2}}, {"pk": 7, "model": "auth.permission", "fields": {"codename": "add_group", "name": "Can add group", "content_type": 3}}, {"pk": 8, "model": "auth.permission", "fields": {"codename": "change_group", "name": "Can change group", "content_type": 3}}, {"pk": 9, "model": "auth.permission", "fields": {"codename": "delete_group", "name": "Can delete group", "content_type": 3}}, {"pk": 10, "model": "auth.permission", "fields": {"codename": "add_user", "name": "Can add user", "content_type": 4}}, {"pk": 11, "model": "auth.permission", "fields": {"codename": "change_user", "name": "Can change user", "content_type": 4}}, {"pk": 12, "model": "auth.permission", "fields": {"codename": "delete_user", "name": "Can delete user", "content_type": 4}}, {"pk": 13, "model": "auth.permission", "fields": {"codename": "add_contenttype", "name": "Can add content type", "content_type": 5}}, {"pk": 14, "model": "auth.permission", "fields": {"codename": "change_contenttype", "name": "Can change content type", "content_type": 5}}, {"pk": 15, "model": "auth.permission", "fields": {"codename": "delete_contenttype", "name": "Can delete content type", "content_type": 5}}, {"pk": 16, "model": "auth.permission", "fields": {"codename": "add_session", "name": "Can add session", "content_type": 6}}, {"pk": 17, "model": "auth.permission", "fields": {"codename": "change_session", "name": "Can change session", "content_type": 6}}, {"pk": 18, "model": "auth.permission", "fields": {"codename": "delete_session", "name": "Can delete session", "content_type": 6}}, {"pk": 19, "model": "auth.permission", "fields": {"codename": "add_person", "name": "Can add person", "content_type": 7}}, {"pk": 20, "model": "auth.permission", "fields": {"codename": "change_person", "name": "Can change person", "content_type": 7}}, {"pk": 21, "model": "auth.permission", "fields": {"codename": "delete_person", "name": "Can delete person", "content_type": 7}}]
+[
+  {
+        "fields": {
+            "date_joined": "2017-04-21T20:31:47.914Z",
+            "email": "kuznecov513@gmail.com",
+            "first_name": "",
+            "groups": [],
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": true,
+            "last_login": "2017-04-21T20:32:22.972Z",
+            "last_name": "",
+            "password": "pbkdf2_sha256$12000$Qp23lRO3YjwP$GmldqoqQtasx5OZfC7RGIk5PhFksw8tT+Us3qmd+yrI=",
+            "user_permissions": [],
+            "username": "admin"
+        },
+        "model": "auth.user",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "bio": "",
+            "birth_date": "1988-07-06",
+            "contacts": "",
+            "email": "kuznecov513@gmail.com",
+            "jabber": "miando@42cc.co",
+            "last_name": "Kuzietsov",
+            "name": "Mykhailo",
+            "skype": "mykhailo.kuznietsov",
+            "user": 1
+        },
+        "model": "hello.person",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "action_flag": 1,
+            "action_time": "2017-04-21T20:33:02.431Z",
+            "change_message": "",
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Mykhailo Kuzietsov",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 1
+    }
+]
