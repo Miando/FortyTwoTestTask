@@ -1,28 +1,33 @@
 {% extends "hello/base.html" %}
 {% block content %}
 <div class="container">
-<h1>42 Coffee Cups Test Assignment</h1>
+  <div class="row">
+    <div class="col-sm-8">
+      <h1 >42 Coffee Cups Test Assignment</h1>
+    </div>
+
+  </div>
 </div>
 <div class="container">
   <div class="row">
-    <div class="col-sm-6">
-      <h3>Name: Mykhailo</h3>
-      <h3>Last Name: Kuznietsov</h3>
-      <h3>Date of birth: 1988-07-06</h3>
+    <div class="col-sm-4">
+      <h3>Name: {{ person.name }}</h3>
+      <h3>Last Name: {{ person.last_name }}</h3>
+      <h3>Date of birth: {{ person.birth_date }}</h3>
         <br>
         <br>
         <br>
-      <h3>Bio: </h3>
+      <h3>Bio: {{ person.bio }}</h3>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-4">
       <h3>Contacts</h3>
-      <h3>Email: kuznecov513@gmail.com</h3>
-      <h3>Jabber:</h3>
-      <h3>Skype: </h3>
+      <h3>Email: {{ person.email }}</h3>
+      <h3>Jabber: {{ person.jabber }}</h3>
+      <h3>Skype: {{ person.skype }}</h3>
 
         <br>
       <h3>Other contacts:</h3>
-      <h3></h3>
+      <h3>{{ person.contacts}}</h3>
     </div>
   </div>
 </div>
