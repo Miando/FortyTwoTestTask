@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 
 class Person(models.Model):
-    user = models.OneToOneField(User, default=1)
+    user = models.OneToOneField(User)
     name = models.CharField(max_length=50, null=True, blank=True)
     last_name = models.CharField(max_length=50, null=True, blank=True)
     birth_date = models.DateField(null=True, blank=True)
