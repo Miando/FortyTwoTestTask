@@ -31,18 +31,5 @@
         },
         "model": "hello.person",
         "pk": 1
-    },
-    {
-        "fields": {
-            "action_flag": 1,
-            "action_time": "2017-04-21T20:33:02.431Z",
-            "change_message": "",
-            "content_type": 7,
-            "object_id": "1",
-            "object_repr": "Mykhailo Kuzietsov",
-            "user": 1
-        },
-        "model": "admin.logentry",
-        "pk": 1
     }
 ]
